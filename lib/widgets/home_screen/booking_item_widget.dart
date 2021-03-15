@@ -53,7 +53,7 @@ class BookingItemWidget extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Container(
-              width: 240,
+              width: 230,
               child: Text(bookingItem.description,
                   maxLines: 2,
                   style: TextStyle(fontWeight: FontWeight.w400, fontSize: 12.0),
